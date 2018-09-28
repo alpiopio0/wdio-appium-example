@@ -1,3 +1,5 @@
+import assert from 'assert'
+
 suite('iOS tests - ', () => {
 
     test('Should pass', async () => {
