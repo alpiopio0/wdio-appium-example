@@ -1,0 +1,17 @@
+{
+  "name": "appium",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "appium": "^1.9.1",
+    "wd": "^1.10.3",
+    "webdriverio": "^4.13.2"
+  },
+  "devDependencies": {
+    "wdio-appium-service": "^0.2.3",
+    "wdio-mocha-framework": "^0.6.3"
+  },
+}
