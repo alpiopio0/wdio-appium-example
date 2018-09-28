@@ -4,30 +4,20 @@ exports.config = {
         android: [
             './test/android/*.js',
         ],
-        ios: [
-            './test/ios/*.js',
-        ],
     },
     capabilities: [
       {
-          platformName: "iOS",
-          platformVersion: "11.4",
-          deviceName: "iPhone 8",
-          app: "/Users/bmurray/Documents/appium/NicheMobileApp.app",
-          automationName: "XCUITest"
+        platformName: "Android",
+        platformVersion: "8.1.0",
+        deviceName: "Android Emulator",
+        app: "/Users/bmurray/Documents/appium/ApiDemos-debug.apk",
+        automationName: "UiAutomator2"
       },
-      // {
-      //   // platformName: "Android",
-      //   // platformVersion: "8.1.0",
-      //   // deviceName: "Android Emulator",
-      //   // app: "./ApiDemos-debug.apk",
-      //   // automationName: "UiAutomator2"
-      // }
     ],
 
     host: '0.0.0.0',
     port: '4723',
-    
+
     //
     // By default WebdriverIO commands are executed in a synchronous way using
     // the wdio-sync package. If you still want to run your tests in an async way

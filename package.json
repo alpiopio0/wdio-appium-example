@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "test:android": "./node_modules/.bin/wdio wdio.conf.js --suite android",
-    "test:ios": "./node_modules/.bin/wdio wdio.conf.js --suite ios"
+    "test:android": "./node_modules/.bin/wdio wdio.conf.android.js --suite android",
+    "test:ios": "./node_modules/.bin/wdio wdio.conf.ios.js --suite ios"
   },
   "dependencies": {
     "appium": "^1.9.1",
