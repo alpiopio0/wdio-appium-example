@@ -13,6 +13,7 @@
     "wd": "^1.10.3",
     "wdio-appium-service": "^0.2.3",
     "wdio-mocha-framework": "^0.6.1",
+    "wdio-spec-reporter": "^0.1.5",
     "webdriverio": "^4.13.2"
   },
   "devDependencies": {
