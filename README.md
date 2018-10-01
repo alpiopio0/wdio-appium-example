@@ -60,4 +60,6 @@ Note: at the time of this writing, on OS X this path needs to be an absolute pat
 <hr>
 
 ### Run tests
-To execute test, reference `package.json`. At the time of this writing, you can use `npm run test:android` or `npm run test:ios`
+To execute test, reference `package.json`.
+
+At the time of this writing, you can use `npm run test:android` or `npm run test:ios`

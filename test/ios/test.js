@@ -1,9 +1,10 @@
 import assert from 'assert'
+import { Selectors } from '../../selectors/all'
 
-suite('iOS tests - ', () => {
+suite('iOS tests', () => {
 
     test('Should pass', async () => {
-      browser.waitForExist("~Hi it's the Niche Mobile App", 5000)
+      browser.waitForExist(Selectors.Home.HI_ITS_NICHE, 5000)
     })
 
     test('Should fail', async () => {
