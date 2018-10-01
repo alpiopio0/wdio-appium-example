@@ -69,6 +69,6 @@ At the time of this writing, you can use `npm run test:android` or `npm run test
 ### App assets
 This test suite doesn't run out of the box: as you can see, there is no `appium/NicheMobileApp.app` file included here.
 
-When CI is integrated to build `.apk`, `.app` files we'll want to build off those.
+When CI is integrated to build `.apk` and `.app` files we'll want to build off those.
 
 Until then, you can find test files in the `Appium assets` folder in the QA drive on NicheNAS.
