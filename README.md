@@ -1,5 +1,7 @@
 # Appium
 
+This project combines <a href="http://appium.io/">Appium</a> and <a href="http://webdriver.io/">WebdriverIO</a> to execute end-to-end tests in native apps on iOS and Android.
+
 <img href="http://appium.io/" src="https://user-images.githubusercontent.com/20906544/46296880-61550580-c569-11e8-8c15-2e67f36843d1.png"/>
 
 ## Setup
@@ -60,6 +62,13 @@ Note: at the time of this writing, on OS X this path needs to be an absolute pat
 <hr>
 
 ### Run tests
-To execute test, reference `package.json`.
+To execute tests, reference `package.json`.
 
 At the time of this writing, you can use `npm run test:android` or `npm run test:ios`
+
+### App assets
+This test suite doesn't run out of the box: as you can see, there is no `appium/NicheMobileApp.app` file included here.
+
+When CI is integrated to build `.apk`, `.app` files we'll want to build off those.
+
+Until then, you can find test files in the `Appium assets` folder in the QA drive on NicheNAS.
