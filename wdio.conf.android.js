@@ -2,21 +2,24 @@ exports.config = {
 
     suites: {
         android: [
+            './test/all/*.js',
             './test/android/*.js',
         ],
     },
     capabilities: [
       {
-        platformName: "Android",
-        platformVersion: "8.1.0",
-        deviceName: "Android Emulator",
-        app: "/Users/bmurray/Documents/appium/ApiDemos-debug.apk",
-        automationName: "UiAutomator2"
+          platformName: "Android",
+          platformVersion: "8.1.0",
+          deviceName: "Android Emulator",
+          app: "/Users/bmurray/Documents/appium/ApiDemos-debug.apk",
+          automationName: "UiAutomator2"
       },
     ],
 
     host: '0.0.0.0',
     port: '4723',
+
+    maxInstances: 1,
 
     //
     // By default WebdriverIO commands are executed in a synchronous way using

@@ -2,6 +2,7 @@ exports.config = {
 
     suites: {
         ios: [
+            './test/all/*.js',
             './test/ios/*.js',
         ],
     },
@@ -17,6 +18,8 @@ exports.config = {
 
     host: '0.0.0.0',
     port: '4723',
+
+    maxInstances: 1,
 
     //
     // By default WebdriverIO commands are executed in a synchronous way using
