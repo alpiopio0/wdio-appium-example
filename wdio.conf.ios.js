@@ -7,13 +7,13 @@ exports.config = {
         ],
     },
     capabilities: [
-      {
-          platformName: "iOS",
-          platformVersion: "11.4",
-          deviceName: "iPhone 8",
-          app: "/Users/bmurray/Documents/appium/NicheMobileApp.app",
-          automationName: "XCUITest"
-      },
+        {
+            "platformName": "iOS",
+            "platformVersion": "16.4",
+            "deviceName": "iPhone 14",
+            "automationName": "XCUITest",
+            "app": "/Users/MA1779/Downloads/wdioNativeDemoApp.app"
+        },
     ],
 
     host: '0.0.0.0',
